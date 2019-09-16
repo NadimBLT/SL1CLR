@@ -25,7 +25,7 @@ True_Models
 head(X)
 head(y)
 head(pairs)
-head(strata)
+head(matchSet)
 
 '
 RES_Pooled       = CondLogist_PooledLasso     (X=X,y=y,pairs=pairs,matchSet=matchSet,method = c("BIC","BIC-R"))
