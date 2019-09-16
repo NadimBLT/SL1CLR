@@ -44,6 +44,7 @@ cLogitLasso, survival and Matrix.
 * **CV.1se**       : Matrix of parameters obtained for the lambda value that have the error which is within 1 standard error of the minimum of mean cross validation error.  
 * **CV-OSL**       : Matrix of parameters obtained for the lambda value that minimized the mean cross validation error in **O**ne **S**tep **L**asso.   
 * **CV.1se-OSL**       : Matrix of parameters obtained for the lambda value that have the error which is within 1 standard error of the minimum of mean cross validation error in **O**ne **S**tep **L**asso.
+
 **ALL outputs are matrices, of dimension p x K, where p is the number of variables and K is the number of strata.**  
 
 
