@@ -42,8 +42,7 @@ refo <- function(vec,K){
 }
 
 
-CondLogist_DataSharedLasso <- function(X,y,pairs,matchSet,method=c("BIC","BIC-R","CV","CV-OSL")){
-  strata=matchSet
+CondLogist_DataSharedLasso <- function(X,y,pairs,strata,method=c("BIC","BIC-R","CV","CV-OSL")){
   WL1=NULL
   WL2=NULL
   SeqTau=1
