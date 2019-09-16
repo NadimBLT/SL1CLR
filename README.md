@@ -51,7 +51,7 @@ cLogitLasso, survival and Matrix.
 
 ## References
 
-[1] Ballout, Nadim, Garcia, Cedric, et Viallon, Vivian. Sparse estimation for case-control studies with multiple subtypes of cases. arXiv preprint arXiv:1901.01583, 2019.
+[1] Ballout, Nadim; Garcia, Cedric; Viallon, Vivian. Sparse estimation for case-control studies with multiple subtypes of cases. arXiv preprint arXiv:1901.01583, 2019.
 
 [2] Bühlmann, Peter; Meier, Lukas. Discussion: One-step sparse estimates in nonconcave penalized likelihood models. Ann. Statist. 36 (2008), no. 4, 1534--1541.
 
