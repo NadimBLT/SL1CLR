@@ -1,7 +1,7 @@
 # SL1CLR
 ## Stratified L1-penalized conditional logistic regression models for matched case control studies
 
-Methods CondLogist_DataSharedLasso, CondLogist_RefLasso, CondLogist_IndepLasso and CondLogist_PooledLasso, developped by Ballout, Garcia and Viallon *, are used to estimate several L1-penalized conditional logistic regression models defined on several strata for matched case control studies. Srata can be defined according to specific covariates, but also disease subtypes. Functions corresponding to these methods are available in CondLogist_DataSharedLasso.R, CondLogist_RefLasso.R, CondLogist_IndepLasso.R and CondLogist_PooledLasso.R respectively).
+Methods CondLogist_DataSharedLasso, CondLogist_RefLasso, CondLogist_IndepLasso and CondLogist_PooledLasso, developped by Ballout, Garcia and Viallon *, are used to estimate several L1-penalized conditional logistic regression models defined on several strata for matched case control studies. Strata can be defined according to specific covariates, but also disease subtypes. Functions corresponding to these methods are available in CondLogist_DataSharedLasso.R, CondLogist_RefLasso.R, CondLogist_IndepLasso.R and CondLogist_PooledLasso.R respectively).
 
 **CondLogist_PooledLasso** estimates the models in a pooled way by fitting L1-penalized conditional logistic regression after pooling all strata together.
 
