@@ -32,7 +32,7 @@ cLogitLasso, survival and Matrix.
 * **strata**   : Categorical variable defining the strata of pairs.
 * **method**        : Character string, specifies the tuning parameter selection method to be used. Choices are "BIC", "BIC-R", "CV", and/or "CV-OSL".  
 "BIC" :  specifies the **B**ayesian **I**nformation **C**riterion;  
-"BIC-R":  specifies the **B**ayesian **I**nformation **C**riterion **R**elaxed, adapting the Hybrid-OLS idea (Efron and others 2004) [3];  
+"BIC-R":  specifies the **B**ayesian **I**nformation **C**riterion, adapting the Hybrid-OLS idea (Efron and others 2004) [3];  
 "CV"  :  specifies the **C**ross **V**alidation technique;  
 "CV-OSL"  :  specifies the **C**ross **V**alidation technique following the ideas of    **O**ne **S**tep **L**asso (Buhlmann and Meier 2008) [2]
 * **ref**      : This is for the "CondLogist_RefLasso" method, and allows the user to choose the reference stratum.
