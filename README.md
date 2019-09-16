@@ -29,7 +29,7 @@ cLogitLasso, survival and Matrix.
 * **X**        : Input matrix, of dimension n x p, where n is the number of observations and p is the number of variables; each row is an observation vector.  
 * **y**        : Binary response variable, with 1 for cases and 0 for controls
 * **pairs**    : Vector defining the pairs; each pair composed by a case and his matched control.  
-* **strata**   : Categorical variable defining the strata of pairs.
+* **matchSet**   : Categorical variable indicating sets of matched case-control individuals (only pairs are supported).
 * **method**        : Character string, specifies the tuning parameter selection method to be used. Choices are "BIC", "BIC-R", "CV", and/or "CV-OSL".  
 "BIC" :  specifies the **B**ayesian **I**nformation **C**riterion;  
 "BIC-R":  specifies the **B**ayesian **I**nformation **C**riterion, adapting the Hybrid-OLS idea (Efron and others 2004) [3];  
