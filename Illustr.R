@@ -1,4 +1,4 @@
-path_repository="~/"
+path_repository="~/SL1CLR-master/"
 
 library(clogitLasso)
 library(survival)
