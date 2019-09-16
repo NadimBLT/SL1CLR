@@ -1,7 +1,6 @@
 
 
-CondLogist_IndepLasso <- function(X,y,pairs,matchSet,method=c("BIC","BIC-R","CV","CV-OSL")){
-  strata=matchSet
+CondLogist_IndepLasso <- function(X,y,pairs,strata,method=c("BIC","BIC-R","CV","CV-OSL")){
   NumFolds=10
   W=NULL
   Criteria=method
