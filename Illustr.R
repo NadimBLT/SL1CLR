@@ -19,7 +19,7 @@ True_Models=Data$True_Models
 X=Data$X
 y=Data$y
 pairs=Data$pairs
-strata=Data$strata
+matchSet=Data$strata
 
 True_Models
 head(X)
@@ -28,10 +28,10 @@ head(pairs)
 head(strata)
 
 '
-RES_Pooled       = CondLogist_PooledLasso     (X=X,y=y,pairs=pairs,strata=strata,method = c("BIC","BIC-R"))
-RES_Indep        = CondLogist_IndepLasso      (X=X,y=y,pairs=pairs,strata=strata,method = c("BIC","BIC-R"))
-RES_Ref          = CondLogist_RefLasso        (X=X,y=y,pairs=pairs,strata=strata,method = c("BIC","BIC-R"),ref=1)
-RES_DataShared   = CondLogist_DataSharedLasso (X=X,y=y,pairs=pairs,strata=strata,method = c("BIC","BIC-R"))
+RES_Pooled       = CondLogist_PooledLasso     (X=X,y=y,pairs=pairs,matchSet=matchSet,method = c("BIC","BIC-R"))
+RES_Indep        = CondLogist_IndepLasso      (X=X,y=y,pairs=pairs,matchSet=matchSet,method = c("BIC","BIC-R"))
+RES_Ref          = CondLogist_RefLasso        (X=X,y=y,pairs=pairs,matchSet=matchSet,method = c("BIC","BIC-R"),ref=1)
+RES_DataShared   = CondLogist_DataSharedLasso (X=X,y=y,pairs=pairs,matchSet=matchSet,method = c("BIC","BIC-R"))
 '
 load(paste0(path_repository,"ResEx.Rdata"))
 
