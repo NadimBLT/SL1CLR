@@ -57,8 +57,7 @@ mise_forme_coef_hiers = function(coefs, nstr)
     return(mat1)
   }
 
-CondLogist_RefLasso <- function(X,y,pairs,matchSet,method=c("BIC","BIC-R","CV","CV-OSL"),ref=1){
-  strata=matchSet
+CondLogist_RefLasso <- function(X,y,pairs,strata,method=c("BIC","BIC-R","CV","CV-OSL"),ref=1){
   WL1=NULL
   WL2=NULL
   SeqTau=1
